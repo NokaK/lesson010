@@ -1,0 +1,50 @@
+body {
+  background-color: burlywood;
+}
+h1 {
+  font-size: 20px;
+}
+
+form {
+  background-color: cadetblue;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+.input-field label {
+  font-size: 20px;
+}
+.input-field input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #000;
+  width: 300px;
+  transition: width 0.5s;
+  /* border-radius: 8px; */
+}
+.input-field input:focus {
+  border: 4px solid #000;
+  outline: none;
+}
+.input-field input:hover {
+  width: 500px;
+}
+.check {
+  aspect-ratio: green;
+}
+textarea {
+  resize: none;
+  height: 300px;
+  width: 500px;
+}
+button {
+  background-color: indigo;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+}
